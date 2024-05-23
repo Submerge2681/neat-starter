@@ -1,10 +1,20 @@
 ---
 items:
-  - text: Menu One
-    url: "#"
-  - text: Menu Two
-    url: "#"
-  - text: Menu Three
-    url: "#"
+  - text: Home
+    url: "/"
+  - text: Campaigns
+    url: "/campaigns/"
+  - text: Climate Library
+    url: "/climate-library/"
   - text: Blog
     url: "/blog"
+  - text: Media
+    url: "/media/"
+  - text: Chapters
+    url: "/chapters/"
+  - text: Join Us
+    url: "/join-us/"
+  - text: About Us
+    url: "/about-us/"
+  - text: Contact Us
+    url: "/contact-us/"

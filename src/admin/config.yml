@@ -4,7 +4,8 @@ backend:
   branch: master
   ### enable below lines for github integration ###
   # name: github
-  # repo: surjithctly/neat-starter
+  repo: Submerge2681/neat-starter
+  site_url: snazzy-genie-072295.netlify.app
 media_folder: "src/static/img"
 public_folder: "/static/img"
 
@@ -66,3 +67,66 @@ collections:
           - { label: Name, name: name, widget: string }
           - { label: Author, name: author, widget: string }
           - { label: URL, name: url, widget: string }
+  - name: "Campaigns"
+    label: "Campaigns"
+    folder: "src/campaigns"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "Climate Library"
+    label: "Climate Library"
+    folder: "src/climate-library"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "Media"
+    label: "Media"
+    folder: "src/media"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "Chapters"
+    label: "Chapters"
+    folder: "src/chapters"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "Join Us"
+    label: "Join Us"
+    folder: "src/join-us"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "About Us"
+    label: "About Us"
+    folder: "src/about-us"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "Contact Us"
+    label: "Contact Us"
+    folder: "src/contact-us"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
