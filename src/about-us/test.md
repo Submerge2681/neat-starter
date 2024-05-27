@@ -1,9 +1,0 @@
----
-title: Test
----
-AZURA_DOCKER_REVISION=latest
-AZURA_SETUP_NGINX=true
-AZURA_SETUP_NGINX_CERTBOT=false
-AZURA_SETUP_NGINX_SSL=false
-AZURA_SETUP_SSL_CERT_PATH=/path/to/ssl/cert
-AZURA_SETUP_SSL_KEY_PATH=/path/to/ssl/key
