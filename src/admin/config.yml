@@ -68,7 +68,7 @@ collections:
           - { label: Author, name: author, widget: string }
           - { label: URL, name: url, widget: string }
   - name: "Campaigns"
-    label: "Campaigns"
+    label: "campaigns"
     folder: "src/campaigns"
     create: true
     slug: "{{slug}}"
@@ -77,7 +77,7 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "Climate Library"
-    label: "Climate Library"
+    label: "climate-library"
     folder: "src/climate-library"
     create: true
     slug: "{{slug}}"
@@ -86,7 +86,7 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "Media"
-    label: "Media"
+    label: "media"
     folder: "src/media"
     create: true
     slug: "{{slug}}"
@@ -95,7 +95,7 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "Chapters"
-    label: "Chapters"
+    label: "chapters"
     folder: "src/chapters"
     create: true
     slug: "{{slug}}"
@@ -104,7 +104,7 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "Join Us"
-    label: "Join Us"
+    label: "join-Us"
     folder: "src/join-us"
     create: true
     slug: "{{slug}}"
@@ -113,15 +113,15 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "About Us"
-    label: "About Us"
+    label: "about-us"
     folder: "src/about-us"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Description", name: "description", widget: "string" }
   - name: "Contact Us"
-    label: "Contact Us"
+    label: "contact-us"
     folder: "src/contact-us"
     create: true
     slug: "{{slug}}"
