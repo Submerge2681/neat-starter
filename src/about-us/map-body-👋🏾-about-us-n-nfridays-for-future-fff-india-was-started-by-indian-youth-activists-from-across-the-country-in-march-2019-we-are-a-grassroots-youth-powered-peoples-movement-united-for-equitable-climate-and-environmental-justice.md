@@ -1,3 +1,6 @@
+---
+title: about us
+---
 # 👋🏾 About us:
 
 Fridays For Future (FFF) India was started by Indian youth activists from across the country in March 2019. We are a grassroots, youth powered people's movement united for equitable climate and environmental justice. We use art, music, education, policy intervention, on ground campaigns, digital campaigns and local governance to change conversations about the climate crisis while also urging governments in India and across the world to act on the crisis.
