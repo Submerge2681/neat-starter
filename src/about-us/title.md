@@ -1,4 +1,4 @@
 ---
-title: "Title"
+title: About us
 ---
 # About us
