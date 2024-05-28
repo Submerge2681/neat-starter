@@ -119,7 +119,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "Contact Us"
     label: "contact-us"
     folder: "src/contact-us"
