@@ -61,7 +61,7 @@ We are a group of young people committed to creating a more just world for peopl
 
 - - -
 
-# **⚙️ Operating Principles:**
+# ⚙️ Operating Principles:
 
 **1️⃣ Everyone is welcome. Everyone is valued.**
 
