@@ -65,10 +65,12 @@ We are a group of young people committed to creating a more just world for peopl
 
 We are primarily **youth-powered**, but we welcome everyone and all parts of everyone. We strive to make our movement a safe environment and a trusted community for all. We prioritise **inclusivity and intersectionality.** Our struggle is across all spheres, and it is intergenerational. We must unite for a better future. 
 
+\
 **2️⃣ We have a mission to ensure that our planet is livable** 
 
 Our work is directed towards enabling a livable planet for our generation and the generations to come. We demand policies and governance that center ecology, animals, the planet and people over profit. 
 
+\
 **3️⃣ We work on principles of transformative justice**
 
 We avoid calling people out and partaking in cancel-culture. We believe in restorative action and not punishment. We foster an environment of love and acceptance; acknowledgeing that we have all grown up in varying systems of oppression. We believe we need to enable an environment that encourages loving, nurturing, accepting and supporting each other.
@@ -102,7 +104,5 @@ We believe that the climate crisis is political and we need governments across t
 **9️⃣ We center our work around intersectionality and social custice**
 
 We understand the differential impacts the climate and environmental crises have on different sections of the society, and the overlapping intersections of how caste, gender, class, etc can operate to create different modes of discrimination and privilege. In all our work, we seek to take cognizance of our own positionality with respect to social structures, actively work to mitigate power and privilege, as well as centre those most affected by the climate and environmental crises in our activities.
-
-![](blob:https://sandbox.cryptpad.info/a255b3fc-e7f6-4a4f-92af-d649fa692306)![](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw== "Click and drag to move")
 
 ​
