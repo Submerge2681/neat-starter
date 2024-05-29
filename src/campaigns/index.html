@@ -1,9 +1,83 @@
 ---
-title: "Campaigns"
-layout: "default"
+title: ""
+layout: "about-us"
 permalink: "/campaigns/"
 ---
+<div class="my-container">
+  <div class="">
+    <h1>Petitions</h1>
+    <div class="overflow-x-auto">
+      <section class="mt-15 flex space-x-8">
+        {% set campaigns = collections.campaigns %}
 
-<div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
-   
+        {% for campaign in campaigns %}
+        {% if campaign.data.image %}
+          <img src="{{ campaign.data.image }}" alt="{{ campaign.data.title }}" class="w-full h-auto mb-4">
+        {% endif %}
+          {% if campaign.data.title and campaign.data.title | length > 5 %}
+            <article class="my-8 min-w-[300px] min-h-[150px]">
+              <h2 class="font-bold text-3xl text-gray-900 mb-2">
+                <!-- <a href="{{ campaign.url | url }}"> -->  
+                {{ campaign.data.title }}
+                <!-- </a> -->
+              </h2>
+              <p class="text-lg text-gray-500 mb-3">
+                {{ campaign.data.description }}
+              </p>
+            </article>
+          {% endif %}
+        {% endfor %}
+      </section>
+    </div>
   </div>
+
+  <div>
+    <h1>Currnet Campaigns</h1>
+
+    <section class="mt-15">
+      {% set campaigns = collections.campaigns %}
+
+      {% for campaign in campaigns %}
+
+      <article class="my-8">
+        {% if campaign.data.title %}
+        <h2 class="font-bold text-3xl text-gray-900 mb-2">
+            <!-- <a href="{{ campaign.url | url }}"> -->  
+              {{ campaign.data.title }}
+            <!-- </a> -->
+        </h2>
+        <p class="text-lg text-gray-500 mb-3">
+            {{ campaign.data.description }}
+        </p>
+        {% else %}
+        {% endif %}
+      </article>
+      {% endfor %}
+    </section>
+  </div>
+
+  <div>
+    <h1>Past Campaigns</h1>
+
+    <section class="mt-15">
+      {% set campaigns = collections.campaigns %}
+
+      {% for campaign in campaigns %}
+
+      <article class="my-8">
+        {% if campaign.data.title %}
+        <h2 class="font-bold text-3xl text-gray-900 mb-2">
+            <!-- <a href="{{ campaign.url | url }}"> -->  
+              {{ campaign.data.title }}
+            <!-- </a> -->
+        </h2>
+        <p class="text-lg text-gray-500 mb-3">
+            {{ campaign.data.description }}
+        </p>
+        {% else %}
+        {% endif %}
+      </article>
+      {% endfor %}
+    </section>
+  </div>
+</div>

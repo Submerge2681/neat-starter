@@ -74,7 +74,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "Climate Library"
     label: "climate-library"
@@ -120,6 +120,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: URL, name: url, widget: string }
   - name: "Contact Us"
     label: "contact-us"
     folder: "src/contact-us"
@@ -129,3 +130,30 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "Privacy Policy"
+    label: "privacy-policy"
+    folder: "src/privacy-policy"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: URL, name: url, widget: string }
+  - name: "POSH Policy"
+    label: "posh-policy"
+    folder: "src/posh-policy"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: URL, name: url, widget: string }
+  - name: "Terms of Use"
+    label: "terms-of-use"
+    folder: "src/terms-of-use"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: URL, name: url, widget: string }      
