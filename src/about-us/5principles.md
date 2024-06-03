@@ -47,4 +47,4 @@ We believe that the climate crisis is political and we need governments across t
 
 We understand the differential impacts the climate and environmental crises have on different sections of the society, and the overlapping intersections of how caste, gender, class, etc can operate to create different modes of discrimination and privilege. In all our work, we seek to take cognizance of our own positionality with respect to social structures, actively work to mitigate power and privilege, as well as centre those most affected by the climate and environmental crises in our activities.
 
-​
+​![](/static/img/fffi.png)

@@ -2,9 +2,8 @@
 title: Lorem ipsum
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada bibendum arcu vitae elementum curabitur vitae.
 date: 2024-05-23T05:46:27.217Z
+image: /static/img/no-img.jpg
 ---
-
-![Placeholder](https://mtek3d.com/wp-content/uploads/2018/01/image-placeholder-500x500-300x300.jpg "Placeholder")
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada bibendum arcu vitae elementum curabitur vitae. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Interdum posuere lorem ipsum dolor sit amet. Aliquam ultrices sagittis orci a scelerisque. At risus viverra adipiscing at in. Morbi tincidunt augue interdum velit euismod in pellentesque massa. Tempor nec feugiat nisl pretium fusce id velit ut. Eu non diam phasellus vestibulum lorem sed. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Risus ultricies tristique nulla aliquet enim.
 

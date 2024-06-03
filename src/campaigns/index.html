@@ -1,83 +1,20 @@
 ---
 title: ""
-layout: "about-us"
+layout: "campaigns"
 permalink: "/campaigns/"
 ---
-<div class="my-container">
-  <div class="">
-    <h1>Petitions</h1>
-    <div class="overflow-x-auto">
-      <section class="mt-15 flex space-x-8">
-        {% set campaigns = collections.campaigns %}
-
-        {% for campaign in campaigns %}
-        {% if campaign.data.image %}
-          <img src="{{ campaign.data.image }}" alt="{{ campaign.data.title }}" class="w-full h-auto mb-4">
-        {% endif %}
-          {% if campaign.data.title and campaign.data.title | length > 5 %}
-            <article class="my-8 min-w-[300px] min-h-[150px]">
-              <h2 class="font-bold text-3xl text-gray-900 mb-2">
-                <!-- <a href="{{ campaign.url | url }}"> -->  
-                {{ campaign.data.title }}
-                <!-- </a> -->
-              </h2>
-              <p class="text-lg text-gray-500 mb-3">
-                {{ campaign.data.description }}
-              </p>
-            </article>
-          {% endif %}
-        {% endfor %}
-      </section>
-    </div>
+<div class="lg:h-screen lg:w-screen flex flex-col justify-center items-center background-image">
+  <div class="flex flex-col justify-center camp-img items-center">image/graphic</div>
+  <div class="camp-nav flex flex-row items-center">
+    <nav class="ura-font white-text camp-nav-item">Current Campaigns</nav>
+    <nav class="ura-font white-text camp-nav-item">Petitions</nav>
   </div>
-
-  <div>
-    <h1>Currnet Campaigns</h1>
-
-    <section class="mt-15">
-      {% set campaigns = collections.campaigns %}
-
-      {% for campaign in campaigns %}
-
-      <article class="my-8">
-        {% if campaign.data.title %}
-        <h2 class="font-bold text-3xl text-gray-900 mb-2">
-            <!-- <a href="{{ campaign.url | url }}"> -->  
-              {{ campaign.data.title }}
-            <!-- </a> -->
-        </h2>
-        <p class="text-lg text-gray-500 mb-3">
-            {{ campaign.data.description }}
-        </p>
-        {% else %}
-        {% endif %}
-      </article>
-      {% endfor %}
-    </section>
-  </div>
-
-  <div>
-    <h1>Past Campaigns</h1>
-
-    <section class="mt-15">
-      {% set campaigns = collections.campaigns %}
-
-      {% for campaign in campaigns %}
-
-      <article class="my-8">
-        {% if campaign.data.title %}
-        <h2 class="font-bold text-3xl text-gray-900 mb-2">
-            <!-- <a href="{{ campaign.url | url }}"> -->  
-              {{ campaign.data.title }}
-            <!-- </a> -->
-        </h2>
-        <p class="text-lg text-gray-500 mb-3">
-            {{ campaign.data.description }}
-        </p>
-        {% else %}
-        {% endif %}
-      </article>
-      {% endfor %}
-    </section>
-  </div>
+<div class="flex flex-row just-space items-center">
+  <h1 class="jura-font">Current Campaigns</h1>
+  <button class="filter-button jura-font">Filter</button>
+</div>
+<div class="flex flex-row just-space items-center">
+  <h1 class="jura-font">Petitions</h1>
+  <button class="filter-button jura-font">Filter</button>
+</div>
 </div>

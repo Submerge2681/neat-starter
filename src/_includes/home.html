@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      {{title}}
+    </title>
+    {% if description %}
+      <meta name="description" content="{{description}}"/>
+    {% endif %}
+    {% block head %}{% endblock %}
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
+    {% if prism == true %}
+      <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
+    {% endif %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      body{
+        background-color: #19723F;
+      }
+      .white-text{
+        color: #FFF;
+      }
+      .hero-image{
+        background-image: url('/static/img/hero-img.png') !important ;
+      }
+      .big-text{
+        font-size: 1.5rem;
+        font-weight: 300;
+        padding: 10px;
+        text-align: center;
+        letter-spacing: 2px;
+      }
+      .bigger-text{
+        font-size: 4.5rem;
+        padding: 10px;
+        letter-spacing: 2px;
+      }
+      .margin-vertical{
+        margin: 50px 0px;
+      }
+      .urgent-button{
+        background-color: #FF7900;
+        padding: 10px 20px;
+        border: solid 2px #EBFF00;
+        border-radius: 50px;
+        font-size: 1.5rem;
+      }
+      .inika-regular {
+        font-family: "Inika", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .inika-bold {
+        font-family: "Inika", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      .home-img-cont1{
+        height: inherit;
+        width: 30vw;
+        background-color: #FFF;
+        border-radius: 0 500px 500px 0;
+      }
+      .home-img-cont1-disc{
+        width: 60vw;
+        height: 35vh
+      }
+      .blob-set-one{
+        width: inherit;
+        height: 40vh;
+        justify-content: flex-start;
+      }
+      .home-img-cont2{
+        height: 55vh;
+        width: 100vw;
+        background-color: #FFF;
+      }
+      .home-sec-two{
+        justify-content: space-around;
+      }
+      .item-end-for-cont2{
+        align-items: flex-end !important;
+      }
+      .cont2-goto-link{
+        height: 33.3%;
+        min-width: 20vw;
+        width: 20vw;
+        border: #FFF solid 2px;
+        border-radius: 80px 0 0 0;
+      }
+      .cont2-it1{
+        background-color: #EBFF00;
+      }
+      .cont2-it2{
+        width: 25vw;
+        background-color: #FF7900;
+      }
+      .cont2-it3{
+        width: 30vw;
+        background-color: #00ADBF;
+      }
+      
+    </style>
+  </head>
+  <body>
+    {% include "./partials/navbar.html" %}
+
+    {{ content | safe }}
+
+    {% include "./partials/footer.html" %}
+
+    <script src="/static/js/alpine.js"></script>
+
+    {% if path == "home" %}
+      <!-- Netlify Identity Widget -->
+      <!-- Needed only if you are using Netlify Identity feature -->
+      <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {% endif %}
+
+  </body>
+</html>
